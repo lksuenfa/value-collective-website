@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="#" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/protocol.css" />
+    <link rel="stylesheet" href="css/toggle-switch.css" />
+  </head>
+  <body>
+    <nav aria-labelledby="menu">
+      <a href="index.html" tabindex="0" class="logo">AIM LAB</a>
+
+      <ul>
+        <li>
+          <button
+            id="openBtn_about"
+            class="button red"
+            aria-label="Display about submenu items"
+            aria-expanded="false"
+            tabindex="0"
+          >
+            About
+          </button>
+        </li>
+        <li>
+          <a href="protocol.html" class="button blue" tabindex="0">Protocol</a>
+        </li>
+        <li>
+          <a href="projects.html" class="button green" tabindex="0">Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- overlay COntent wrapper -->
+    <div id="aboutMenu" class="overlayContent">
+      <div id="menu_grid">
+        <div id="what" class="menuItem">
+          <a href="" tabindex="0">What</a>
+        </div>
+
+        <div id="who" class="menuItem">
+          <a href="" tabindex="0">Who</a>
+          <img
+            src="assets/icons/arrow-down.png"
+            alt="arrow"
+            class="arrow neutral"
+          />
+        </div>
+        <div id="who-sub" class="submenu inactive">
+          <a href="" tabindex="0">Steering Committee</a>
+          <a href="" tabindex="0">Members</a>
+        </div>
+
+        <div id="where" class="menuItem">
+          <a href="" tabindex="0">Where</a>
+          <img
+            src="assets/icons/arrow-down.png"
+            alt="arrow"
+            class="arrow neutral"
+          />
+        </div>
+
+        <div id="where-sub" class="submenu inactive">
+          <a href="" tabindex="0">Space</a>
+          <a href="" tabindex="0">Design</a>
+          <a href="" tabindex="0">Anticolonial reporting</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="toggleContainer">
+      <div id="toggle">
+        <a
+          href="what.html"
+          id="option-1"
+          class="switch-option red pointer active"
+          >What</a
+        >
+        <a href="who.html" id="option-2" class="switch-option red pointer"
+          >Who</a
+        >
+        <a href="where.html" id="option-3" class="switch-option red pointer"
+          >Where</a
+        >
+        <div id="bkg-active" class="bkg-button red"></div>
+      </div>
+    </section>
+
+    <section class="page_content">
+      <h3>title</h3>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum non
+        urna quis tincidunt. Proin sodales fermentum leo, ac commodo orci tempor
+        a. Mauris augue ipsum, luctus sed dignissim at, venenatis in mi. Mauris
+        bibendum elit sed erat ultrices, nec porttitor quam fermentum. Praesent
+        turpis velit, rhoncus ut arcu a, maximus vestibulum leo. Praesent dui
+        massa, sagittis auctor ultricies a, condimentum quis mi. Etiam viverra
+        mattis augue, id rutrum magna lobortis nec. Mauris nec risus metus. In
+        elit mi, dictum at neque vitae, imperdiet elementum enim. Pellentesque
+        dignissim enim orci, eget scelerisque dui laoreet vitae. In sodales
+        ipsum non sapien accumsan, a pharetra turpis consequat. Etiam diam
+        lectus, posuere tincidunt lacus nec, venenatis semper arcu. Curabitur
+        mattis lacus eleifend, dictum est sed, ultrices elit. Pellentesque
+        rutrum fermentum placerat. Duis vulputate dignissim sapien at rutrum.
+        Etiam faucibus eleifend dolor, euismod pellentesque urna dictum maximus.
+        Pellentesque ut interdum eros. Fusce convallis leo non risus lobortis
+        ultrices. Suspendisse at bibendum nulla. Sed lobortis libero sed
+        lobortis sagittis. Suspendisse leo augue, scelerisque ut blandit quis,
+        venenatis hendrerit purus. Sed dapibus viverra tortor quis congue. Nam
+        ante nibh, euismod vel ornare vel, viverra non odio. Aliquam erat
+        volutpat. Pellentesque sit amet felis justo. Nam semper viverra lorem ac
+        vehicula. Etiam eu lobortis leo. Vivamus at velit tempus, malesuada
+        velit vitae, lobortis ex. Etiam sit amet mi vitae justo ultricies
+        auctor. Nullam pulvinar commodo laoreet. Duis sollicitudin ultrices
+        tortor id lobortis. Fusce viverra enim quis consectetur fringilla.
+        Integer in volutpat est. Mauris sed erat ut justo semper finibus ac et
+        nisl. Fusce dapibus, tellus ac porta porta, ex erat commodo felis, id
+        mattis purus ex vel leo. Aenean molestie ligula eu nulla tristique
+        lobortis. Etiam posuere sed tellus non eleifend. Suspendisse risus dui,
+        finibus sed tortor sed, pharetra efficitur enim. Vestibulum elementum
+        felis ut nunc viverra, eu dignissim nunc vestibulum. Cras interdum augue
+        in massa ullamcorper molestie. In euismod euismod nibh. Nullam placerat,
+        magna ac placerat vestibulum, massa felis posuere metus, in scelerisque
+        quam massa in odio. Vivamus lacus quam, ornare vel ullamcorper a,
+        iaculis a dolor. Etiam quis lectus at mauris cursus dignissim ut at
+        elit. Etiam finibus ipsum vitae nunc malesuada, non dignissim orci
+        sodales. Fusce non tortor eu ligula aliquet mollis. Ut sit amet vehicula
+        arcu, imperdiet iaculis risus. Sed tempor sapien iaculis enim sodales
+        placerat. Maecenas vitae tempus nunc. Nunc rutrum quis risus vulputate
+        bibendum. Vivamus eget porta nisi, et accumsan ante. Nam nec eleifend
+        ligula, et fringilla urna. Donec faucibus eros non lacinia tempus. Ut
+        hendrerit consequat lacus vel pretium. Nulla laoreet mi quis tincidunt
+        sodales. Mauris quis ex gravida, scelerisque nulla non, luctus est.
+        Mauris vel congue diam. Phasellus eros ex, gravida eget euismod in,
+        pharetra accumsan ante. Sed urna odio, scelerisque vehicula urna nec,
+        dignissim egestas felis. Fusce dapibus interdum lorem.
+      </p>
+    </section>
+    <script src="js/menu.js"></script>
+    <script src="js/protocol.js"></script>
+    <script src="js/toggle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+.details {
+  display: none;
+  transition: linear 5s;
+}
+
+.details.active {
+  display: block;
+}
+
+.option {
+  display: flex;
+  width: 100%;
+  padding: 3%;
+  justify-content: space-between;
+  border-bottom: var(--line);
+}
+
+.option.blue.active {
+  background-color: var(--blue);
+}
+
+.option.red.active {
+  background-color: var(--red);
+}
+
+.details p {
+  padding-right: 10%;
+  padding-bottom: 2%;
+}
+
+.protocol-text {
+  width: 100%;
+  padding-left: 5%;
+}
+
+.protocol-text button {
+  font-weight: 400;
+  text-transform: uppercase;
+  /* font-size: 1em; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.number {
+  font-weight: 400;
+  font-size: 0.6em;
+  padding-top: 2%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .number {
+    padding-top: 1%;
+  }
+
+  .protocol-text button {
+    font-size: 1em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .protocol-text button {
+    font-size: 2em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+}

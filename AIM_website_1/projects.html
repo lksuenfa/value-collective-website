@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="#" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/protocol.css" />
+
+    <link rel="stylesheet" href="css/product-grid.css" />
+    <link rel="stylesheet" href="css/toggle-switch.css" />
+    <link rel="stylesheet" href="css/tags.css" />
+  </head>
+  <body>
+    <nav aria-labelledby="menu">
+      <a href="index.html" tabindex="0" class="logo">AIM LAB</a>
+
+      <ul>
+        <li>
+          <button
+            id="openBtn_about"
+            class="button red clickable"
+            aria-label="Display about submenu items"
+            aria-expanded="false"
+            tabindex="0"
+          >
+            About
+          </button>
+        </li>
+        <li>
+          <div class="button blue clickable">
+            <a href="" tabindex="0">Protocol</a>
+          </div>
+        </li>
+        <li>
+          <div class="button green clickable">
+            <a href="" tabindex="0">Projects</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- overlay COntent wrapper -->
+    <div id="aboutMenu" class="overlayContent">
+      <div id="menu_grid">
+        <div id="what" class="menuItem">
+          <a href="" tabindex="0">What</a>
+        </div>
+
+        <div id="who" class="menuItem">
+          <a href="" tabindex="0">Who</a>
+        </div>
+
+        <div id="where" class="menuItem">
+          <a href="" tabindex="0">Where</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="toggleContainer">
+      <div id="toggle">
+        <a
+          href="projects_past.html"
+          id="option-1"
+          class="switch-option pointer green clickable"
+          >Past</a
+        >
+        <a
+          href="projects.html"
+          id="option-2"
+          class="switch-option pointer green active clickable"
+          >Current</a
+        >
+        <a
+          href="projects_visualise.html"
+          id="option-3"
+          class="switch-option pointer green clickable"
+          >Visualise</a
+        >
+        <div id="bkg-active" class="bkg-button green"></div>
+      </div>
+    </section>
+
+    <section id="tag-container">
+      <p>tag</p>
+      <p>tag</p>
+      <p>tag</p>
+      <p>tag</p>
+      <p>tag</p>
+      <p>tag</p>
+      <p>tag</p>
+      <p>tag</p>
+      <p>tag</p>
+    </section>
+
+    <section class="product-grid page_content">
+      <div class="grid-wrapper">
+        <a class="product clickable" href="">
+          <figure>
+            <h3 class="product-title">title 1</h3>
+
+            <div class="product-thumbnail">
+              <img src="assets/images/Prakash.jpg" alt="" />
+              <div class="tag-position">
+                <p class="project-tag">Tag</p>
+                <p class="project-tag">very long tag</p>
+              </div>
+            </div>
+
+            <figcaption class="photo-description">
+              <p>
+                Photo Description : Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              </p>
+            </figcaption>
+          </figure>
+        </a>
+        <a class="product clickable" href="">
+          <figure>
+            <h3 class="product-title">title 1</h3>
+
+            <div class="product-thumbnail">
+              <img src="assets/images/Prakash.jpg" alt="" />
+              <div class="tag-position">
+                <p class="project-tag">Tag</p>
+                <p class="project-tag">very long tag</p>
+              </div>
+            </div>
+
+            <figcaption class="photo-description">
+              <p>
+                Photo Description : Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              </p>
+            </figcaption>
+          </figure>
+        </a>
+        <a class="product clickable" href="">
+          <figure>
+            <h3 class="product-title">An extremely long title</h3>
+
+            <div class="product-thumbnail">
+              <img src="assets/images/Prakash.jpg" alt="" />
+              <div class="tag-position">
+                <p class="project-tag">Tag</p>
+                <p class="project-tag">very long tag</p>
+              </div>
+            </div>
+
+            <figcaption class="photo-description">
+              <p>
+                Photo Description : Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              </p>
+            </figcaption>
+          </figure>
+        </a>
+        <a class="product" href="">
+          <figure>
+            <h3 class="product-title">title 1</h3>
+
+            <div class="product-thumbnail">
+              <img src="assets/images/Prakash.jpg" alt="" />
+              <div class="tag-position">
+                <p class="project-tag">Tag</p>
+                <p class="project-tag">very long tag</p>
+              </div>
+            </div>
+
+            <figcaption class="photo-description">
+              <p>
+                Photo Description : Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              </p>
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+    </section>
+
+    <script src="js/menu.js"></script>
+    <script src="js/protocol.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/product-grid.js"></script>
+  </body>
+</html>

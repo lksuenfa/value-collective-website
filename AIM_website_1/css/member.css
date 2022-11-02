@@ -1,0 +1,114 @@
+.portrait {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0% 10% 0%;
+}
+.portrait img {
+  width: 300px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.member-name {
+  font-weight: normal;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 5%;
+}
+
+.member-bio {
+  font-size: 0.7em;
+  padding: 0% 5% 30% 5%;
+}
+
+.member-info audio {
+  /* z-index: 0; */
+}
+
+.member-thumbnail {
+  width: 250px;
+  height: auto;
+}
+
+.member-grid {
+  display: flex;
+  flex-flow: row wrap;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10% 0%;
+}
+
+.member-grid figcaption {
+  font-size: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.member-grid a:hover {
+  text-decoration: underline;
+}
+
+.details.member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.past-members ul {
+  display: block;
+  padding-bottom: 10%;
+  font-size: 0.5em;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.past-members h3 {
+  text-transform: uppercase;
+  padding: 5% 0%;
+}
+
+@media only screen and (min-width: 600px) {
+  .member-info {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .member-name {
+    padding: 5% 0%;
+  }
+
+  .portrait {
+    padding: 0%;
+  }
+
+  .past-members ul {
+    column-count: 3;
+    column-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .member-name {
+    padding: 0% 0% 3% 0%;
+  }
+
+  .member-grid {
+    padding: 3% 0%;
+  }
+
+  .past-members ul {
+    column-count: 4;
+    column-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .past-members ul {
+    column-count: 6;
+    column-gap: 20px;
+  }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="#" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/protocol.css" />
+    <link rel="stylesheet" href="css/toggle-switch.css" />
+    <link rel="stylesheet" href="css/member.css" />
+  </head>
+  <body>
+    <nav aria-labelledby="menu">
+      <a href="index.html" tabindex="0" class="logo">AIM LAB</a>
+
+      <ul>
+        <li>
+          <button
+            id="openBtn_about"
+            class="button red"
+            aria-label="Display about submenu items"
+            aria-expanded="false"
+            tabindex="0"
+          >
+            About
+          </button>
+        </li>
+        <li>
+          <a href="protocol.html" class="button blue" tabindex="0">Protocol</a>
+        </li>
+        <li>
+          <a href="projects.html" class="button green" tabindex="0">Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- overlay COntent wrapper -->
+    <div id="aboutMenu" class="overlayContent">
+      <div id="menu_grid">
+        <div id="what" class="menuItem">
+          <a href="" tabindex="0">What</a>
+        </div>
+
+        <div id="who" class="menuItem">
+          <a href="" tabindex="0">Who</a>
+          <img
+            src="assets/icons/arrow-down.png"
+            alt="arrow"
+            class="arrow neutral"
+          />
+        </div>
+        <div id="who-sub" class="submenu inactive">
+          <a href="" tabindex="0">Steering Committee</a>
+          <a href="" tabindex="0">Members</a>
+        </div>
+
+        <div id="where" class="menuItem">
+          <a href="" tabindex="0">Where</a>
+          <img
+            src="assets/icons/arrow-down.png"
+            alt="arrow"
+            class="arrow neutral"
+          />
+        </div>
+
+        <div id="where-sub" class="submenu inactive">
+          <a href="" tabindex="0">Space</a>
+          <a href="" tabindex="0">Design</a>
+          <a href="" tabindex="0">Anticolonial reporting</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section id="toggleContainer">
+      <div id="toggle">
+        <a href="what.html" id="option-1" class="switch-option red pointer"
+          >What</a
+        >
+        <a
+          href="who.html"
+          id="option-2"
+          class="switch-option red pointer active"
+          >Who</a
+        >
+        <a href="where.html" id="option-3" class="switch-option red pointer"
+          >Where</a
+        >
+        <div id="bkg-active" class="bkg-button red"></div>
+      </div>
+    </section> -->
+
+    <section class="back-arrow-wrapper">
+      <a href="" class="back-arrow clickable">
+        <img
+          src="assets/icons/arrow-left.png"
+          alt="Back button"
+          aria-labelledby="back button"
+      /></a>
+    </section>
+
+    <section class="member page_content single">
+      <h2 class="member-name">Just a very long name</h2>
+
+      <div class="member-info">
+        <div class="portrait">
+          <img src="assets/images/Prakash.jpg" />
+          <audio controls>
+            <source src="assets/photo_description_test.m4a" type="audio/mp4" />
+          </audio>
+        </div>
+
+        <p class="member-bio">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
+          vestibulum dui. Donec interdum enim lorem, eget sodales risus
+          efficitur in. Sed mi ipsum, posuere non gravida at, tincidunt sed
+          nisi. Maecenas vel vestibulum velit. Morbi nibh ante, consectetur non
+          nibh in, semper dignissim sem. Duis placerat massa nunc, vitae dapibus
+          tellus dapibus vitae. Nullam gravida justo at est sagittis finibus.
+          Nulla mi sem, viverra et tempor ut, tincidunt blandit mauris.
+          Vestibulum eleifend orci eget nibh rhoncus semper. Sed id ullamcorper
+          dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          semper diam non neque hendrerit, vel laoreet risus pellentesque.
+          Aenean in gravida lectus. Praesent eu consequat sem, eu facilisis
+          erat. Donec varius lacinia semper. In eu libero et lectus cursus
+          faucibus. Maecenas mattis massa nec justo fermentum, a pellentesque
+          est sagittis. Donec et laoreet ex. Morbi vehicula tincidunt arcu, eu
+          sollicitudin dui ornare non. Aenean fermentum neque neque, non
+          sagittis ex porta quis. In maximus ligula felis, quis tempus dui
+          tristique non. Integer sodales arcu at ultricies dapibus. Nunc elit
+          nunc, elementum vel magna id, ornare luctus massa. Sed non malesuada
+          sapien. Vivamus pretium eu turpis sit amet placerat. Nunc convallis
+          risus congue ligula viverra, at elementum arcu porta. Aenean tincidunt
+          ex eros, quis semper arcu iaculis vel. Integer varius urna nec feugiat
+          tempor. Aenean vestibulum libero non augue auctor scelerisque.
+        </p>
+      </div>
+    </section>
+    <script src="js/menu.js"></script>
+    <script src="js/protocol.js"></script>
+  </body>
+</html>
