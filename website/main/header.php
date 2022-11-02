@@ -13,6 +13,11 @@
     <!-- css files -->
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/front-page.css">
+    <link rel="stylesheet" href="css/residencies.css">
+    <link rel="stylesheet" href="css/project.css">
 </head>
 
 <body>
