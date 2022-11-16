@@ -1,6 +1,6 @@
 <!-- menu -->
 
 <nav>
-    <div id="logo"> <img src="" alt=""></div>
+    <div> <img src="" alt=""></div>
 
 </nav>
