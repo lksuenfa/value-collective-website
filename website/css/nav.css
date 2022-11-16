@@ -1,0 +1,64 @@
+#navHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+}
+
+#openBtn {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.overlay {
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+
+    background-color: var(--accentColourGreen);
+    overflow: hidden;
+    transition: all 0.5s;
+
+
+}
+
+.overlay a {
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    padding-left: 10%;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#mainMenu {
+    padding: 2rem;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

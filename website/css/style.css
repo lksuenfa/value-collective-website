@@ -5,5 +5,7 @@
 }
 
 body {
-    background-color: red;
+    background-color: var(--bkgColour);
+    padding: 1rem;
+    font-family: var(--bodyFont);
 }
