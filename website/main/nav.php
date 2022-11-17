@@ -15,10 +15,16 @@
         <a id="closeBtn" class="close"><img src="assets/icons/close_icon.svg" alt="close icon"></a>
 
         <div id="mainMenu">
-            <a href="">About</a>
-            <a href="">Residencies</a>
-            <a href="">Projects</a>
-            <a href="">Document</a>
+            <div class="search-container">
+                <form action="">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <a href="about.php">About</a>
+            <a href="residencies.php">Residencies</a>
+            <a href="projects.php">Projects</a>
+            <a href="document.php">Document</a>
         </div>
     </div>
 

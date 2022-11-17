@@ -9,3 +9,10 @@ body {
     padding: 1rem;
     font-family: var(--bodyFont);
 }
+
+a:link,
+a:visited {
+    color: var(--bodyFont);
+    text-decoration: none;
+    cursor: pointer;
+}

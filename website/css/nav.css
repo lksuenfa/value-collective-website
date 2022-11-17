@@ -47,8 +47,12 @@
 }
 
 #mainMenu {
-    padding: 2rem;
+    padding: 1rem;
+    margin: 20vh 10vh 0vh 10vh;
+    border: var(--thickline);
+    border-radius: var(--roundedEdges);
 }
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -58,7 +62,38 @@
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+
+    #openBtn,
+    #closeBtn {
+        display: none;
+    }
+
+    #navHeader {
+        justify-content: center;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0);
+        top: 10vh;
+        width: 15vw;
+        height: 100vh;
+        display: block;
+        margin: 10px;
+
+    }
+
+    .overlay,
+    .overlay a {
+        transition: 0s;
+    }
+
+    #mainMenu {
+        margin: 0;
+        padding: 10px;
+
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
