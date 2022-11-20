@@ -72,7 +72,7 @@ SOFTWARE.
 
 
 <div class="button2">
-  <button id="myBtn" class="dropbtn2"><p> projects </p>
+  <button id="myBtn2" class="dropbtn2"><p> projects </p>
 
 </button>
   <div id="myButton2" class="button2-content">
