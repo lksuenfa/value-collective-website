@@ -30,7 +30,13 @@ h3 {
   font-style: normal;
 }
 
-.dropbtn {
+
+.dropdown2-content img {
+padding: 4%;
+
+}
+
+.dropbtn, .dropbtn2 {
   background: none;
   border: none;
   cursor: pointer;
@@ -40,7 +46,7 @@ h3 {
   background: #68b178;
 }
 
-.dropdown {
+.dropdown, .dropdown2 {
   text-align: left;
   border: solid 4px black;
   border-radius: 7px;
@@ -50,12 +56,12 @@ h3 {
   /* display: inline-block; */
 }
 
-.dropdown-content {
+.dropdown-content, .dropdown2-content {
   display: none;
   overflow: auto;
 }
 
-.dropdown-content a {
+.dropdown-content a, .dropdown2-content a {
   color: black;
   /* text-decoration: none; */
   display: block;
@@ -66,35 +72,11 @@ h3 {
 .show {display:block;}
 
 
-.dropbtn2 {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
 
-.button2:hover, .button2:focus {
+.dropdown2:hover, .dropdown2:focus {
   background: #D98283;
 }
 
-.button2 {
-  text-align: left;
-
-  border: solid 4px black;
-  border-radius: 7px;
-  padding: 12px;
-  margin-bottom: 12px;
-  position: relative;
-}
-
-.button2-content {
-  display: none;
-  overflow: auto;
-}
-
-.button2-content a {
-  color: black;
-  display: block;
-}
 
 
 
@@ -169,7 +151,7 @@ SOFTWARE.
 }
 
 .ico .st-arrow {
-  fill: #363635;
+  fill: black;
   -webkit-animation: scrolly 3s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
   animation: scrolly 3s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
   -webkit-perspective: 9000px;
