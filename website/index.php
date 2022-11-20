@@ -56,5 +56,8 @@ SOFTWARE.
 </svg>
 </div>
 
+<p> residencies </p>
+<p> projects </p>
+
 
 </div>
