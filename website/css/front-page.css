@@ -108,7 +108,7 @@ SOFTWARE.
 
 .ico .circle {
   border: 2px solid black;
-  background: #b197b3;
+  background: #30B2D0;
   border-radius: 50%;
   display: inline-block;
   height: 60px;
@@ -343,7 +343,7 @@ SOFTWARE.
     font-family: 'Poppins';
     font-style: italic;
     font-size: 32px;
-    margin-bottom: 14%;
+    margin-bottom: 18%;
     margin-top: 15%;
     margin-right: 2%;
     text-align: left;
