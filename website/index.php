@@ -70,7 +70,6 @@ SOFTWARE.
 </div>
 
 
-
 <div class="dropdown2">
   <button id="myBtn2" class="dropbtn2"><p> projects </p>
 
