@@ -9,8 +9,10 @@
 
 
 <div class="outer-box-frame">
+
   <img src="assets/images/vc1_front.png" width="100%" alt="" />
   <h1>Value Collective is an initiative to support work that is valuable but not profitable.</h1>
+
 
 
 <!-- Copyright (c) 2022 Diana Joanita Nakyazze (https://codepen.io/anitanad/pen/qBWGNKJ)

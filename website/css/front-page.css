@@ -318,6 +318,8 @@ SOFTWARE.
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+
   .outer-box-frame {
     border: 4px solid black;
     border-radius: 7px;
@@ -330,6 +332,7 @@ SOFTWARE.
     text-align: center;
     font-size: 84%;
   }
+
 
   .outer-box-frame img {
     width: 55%;
