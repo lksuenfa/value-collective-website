@@ -21,7 +21,6 @@ h1 {
 p {
   font-size: 24px;
   font-weight: bolder;
-
 }
 
 
@@ -36,6 +35,7 @@ p {
 }
 
 .dropdown {
+  text-align: left;
   border: solid 4px black;
   border-radius: 7px;
   padding: 12px;
@@ -56,7 +56,43 @@ p {
 }
 
 
+
 .show {display:block;}
+
+
+.dropbtn2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button2:hover, .button2:focus {
+  background: #D98283;
+}
+
+.button2 {
+  text-align: left;
+
+  border: solid 4px black;
+  border-radius: 7px;
+  padding: 12px;
+  margin-bottom: 12px;
+  position: relative;
+  /* display: inline-block; */
+}
+
+.button2-content {
+  display: none;
+  overflow: auto;
+}
+
+.button2-content a {
+  color: black;
+  /* text-decoration: none; */
+  display: block;
+}
+
+
 
 /* ARROW BUTON */
 
