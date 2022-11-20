@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
 
 .outer-box-frame {
   border: 4px solid black;
@@ -23,6 +23,12 @@ p {
   font-weight: bolder;
 }
 
+h3 {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
 
 .dropbtn {
   background: none;
