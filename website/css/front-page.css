@@ -5,7 +5,7 @@
   border-radius: 7px;
   margin: 6px auto;
   /*the auto for the left/right keeps the page centered*/
-  padding: 12px;
+  padding: 10px;
   max-width: 38rem; // min-width - 2(padding + border)
   justify-content: center;
   text-align: center;
@@ -15,19 +15,48 @@
 h1 {
   font-family: 'Poppins';
   font-style: italic;
+  font-size: 23px;
 }
 
 p {
   font-size: 24px;
-  padding: 16px;
   font-weight: bolder;
-  border: solid 4px black;
-  border-radius: 7px;
-  margin-top: 20px;
 
 }
 
 
+.dropbtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown:hover, .dropdown:focus {
+  background: #68b178;
+}
+
+.dropdown {
+  border: solid 4px black;
+  border-radius: 7px;
+  padding: 12px;
+  margin-bottom: 12px;
+  position: relative;
+  /* display: inline-block; */
+}
+
+.dropdown-content {
+  display: none;
+  overflow: auto;
+}
+
+.dropdown-content a {
+  color: black;
+  /* text-decoration: none; */
+  display: block;
+}
+
+
+.show {display:block;}
 
 /* ARROW BUTON */
 
@@ -49,13 +78,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 .ico {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
   text-align: center;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   position: relative;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -68,8 +97,8 @@ SOFTWARE.
   background: #b197b3;
   border-radius: 50%;
   display: inline-block;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -91,10 +120,12 @@ SOFTWARE.
 .ico .circle.circle-bottom {
   z-index: -99;
   border: none;
-  height: 31px;
-  width: 41px;
+  height: 33.3333333333px;
+  width: 41.6666666667px;
   -webkit-animation: blob-2-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
   animation: blob-2-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  top: 0;
+
 }
 
 .ico .st-arrow {
