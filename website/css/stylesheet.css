@@ -10,6 +10,10 @@
     --bkgColour: #EFEEE4;
     --textDark: #343434;
     --accentColourGreen: #C8FF00;
+    --accentColourYellow: #FFF500;
+    --accentColourPink: #FA00FF;
+    --accentColourBlue: #0037FF;
+    --accentColourAqua: #00E0FF;
 
     /* fonts */
     --bodyFont: 'Public Sans', sans-serif;

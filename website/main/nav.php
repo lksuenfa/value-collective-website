@@ -29,10 +29,10 @@
                     <button type="submit"><img id="searchIcon" src="assets/icons/search.svg" alt="search icon"></button>
                 </form>
             </div>
-            <a class="lined" href="about.php">About</a>
-            <a class="lined" href="residencies.php">Residencies</a>
-            <a class="lined" href="projects.php">Projects</a>
-            <a class="lined last" href="document.php">Document</a>
+            <a class="lined hover green" href="about.php">About</a>
+            <a class="lined hover pink" href="residencies.php">Residencies</a>
+            <a class="lined hover yellow" href="projects.php">Projects</a>
+            <a class="lined last hover aqua" href="document.php">Document</a>
         </div>
 
         <div id="overlayFooter">

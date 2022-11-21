@@ -17,3 +17,24 @@ a:visited {
     text-decoration: none;
     cursor: pointer;
 }
+
+.hover.green:hover {
+    background-color: var(--accentColourGreen);
+}
+
+.hover.yellow:hover {
+    background-color: var(--accentColourYellow);
+}
+
+
+.hover.pink:hover {
+    background-color: var(--accentColourPink);
+}
+
+.hover.aqua:hover {
+    background-color: var(--accentColourAqua);
+}
+
+.hover.blue:hover {
+    background-color: var(--accentColourBlue);
+}
