@@ -39,6 +39,11 @@
             <a href=""><img src="assets/icons/fb.svg" alt="facebook logo"></a>
             <a href="mailto: abc@example.com"> <img src="assets/icons/email.png" alt="email logo"></a>
         </div>
+
+        <section class="footerSide">
+            <?php require  "main/footerNav.php" ?>
+        </section>
     </div>
+
 
 </nav>

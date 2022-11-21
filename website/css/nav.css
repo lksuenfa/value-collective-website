@@ -124,6 +124,8 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+
     nav {
         margin: 5% 10%;
     }
@@ -151,6 +153,10 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .body {
+        display: flex;
+        gap: 20px;
+    }
 
     #logo,
     .overlayLogo {
@@ -168,20 +174,23 @@
         right: 0; */
         justify-content: center;
         align-items: center;
-        position: fixed;
+        padding: 3% 0 10% 0;
+        /* position: fixed;
         width: 15vw;
-        height: 15vh;
+        height: 15vh; */
         /* margin-left: 1%; */
         /* background-color: var(--bkgColour); */
     }
 
     .overlay {
         background-color: rgba(0, 0, 0, 0);
-        top: 20vh;
+        /* top: 20vh; */
         width: 18vw;
         /* height: 100vh; */
         display: block;
         /* margin: 10px; */
+        position: relative;
+        overflow: visible;
 
     }
 
@@ -215,6 +224,8 @@
         width: 30px;
         height: auto;
     }
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
