@@ -8,11 +8,9 @@
 
 <div class="outer-box-frame">
 
-  <header>
-    <img src="assets/images/vc1_front.png" width="100%" alt="" />
-    <h1>Value Collective is an initiative to support work that is valuable but not profitable.</h1>
 
-  </header>
+  <img src="assets/images/vc1_front.png" width="100%" alt="" />
+  <h1>Value Collective is an initiative to support work that is valuable but not profitable.</h1>
 
   <?php require "main/scrollArrow.php" ?>
 

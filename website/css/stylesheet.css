@@ -21,6 +21,6 @@
     --navSize: 1.5rem;
 
     /* lines */
-    --thickline: 4px solid var(--textDark);
+    --thickline: 3px solid var(--textDark);
     --roundedEdges: 7px;
 }

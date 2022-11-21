@@ -14,7 +14,8 @@
 
 }
 
-#logo {
+#logo,
+.overlayLogo {
     width: 120px;
     height: auto;
 
@@ -151,7 +152,8 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    #logo {
+    #logo,
+    .overlayLogo {
         width: 200px;
 
     }
@@ -160,20 +162,22 @@
         margin: 0;
     }
 
+
     #navHeader {
         /* top: 0;
         right: 0; */
         justify-content: center;
         align-items: center;
-        /* position: fixed; */
-        width: 100vw;
-        height: 12vh;
-        background-color: var(--bkgColour);
+        position: fixed;
+        width: 15vw;
+        height: 15vh;
+        /* margin-left: 1%; */
+        /* background-color: var(--bkgColour); */
     }
 
     .overlay {
         background-color: rgba(0, 0, 0, 0);
-        top: 15vh;
+        top: 20vh;
         width: 18vw;
         /* height: 100vh; */
         display: block;
@@ -187,10 +191,11 @@
         font-size: 1rem;
     }
 
-    .overlayLogo,
+
     #overlayFooter,
     #openBtn,
-    #closeBtn {
+    #closeBtn,
+    .overlayLogo {
         display: none;
     }
 

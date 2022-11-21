@@ -15,7 +15,7 @@
 
         <section class="overlayHeader">
             <a href="index.php">
-                <img id="logo" class="overlayLogo" src="assets/logo/Logo_black.svg" alt="Value Collective logo">
+                <img class="overlayLogo" src="assets/logo/Logo_black.svg" alt="Value Collective logo">
             </a>
 
             <a id="closeBtn" class="close"><img src="assets/icons/close_icon.svg" alt="close icon"></a>
