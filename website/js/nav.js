@@ -1,4 +1,4 @@
-let mobileOnly = window.matchMedia("(max-width: 700px)");
+let mobileOnly = window.matchMedia("(max-width: 992px)");
 
 let openBtn = document.querySelector("#openBtn");
 let menu = document.querySelector("#menuMobile");
