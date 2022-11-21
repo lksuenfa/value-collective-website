@@ -11,8 +11,8 @@
 }
 
 .outer-box-frame p {
-font-family: 'Poppins';
-font-size: 18px;
+  font-family: 'Poppins';
+  font-size: 18px;
 }
 
 /* TIMELINE License
@@ -38,7 +38,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
-
 @media (min-width: 1000px) {
   #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
     position: absolute;
@@ -54,6 +53,7 @@ SOFTWARE. */
     height: 9px;
   }
 }
+
 /* Some Cool Stuff */
 .demo-card:nth-child(1) {
   order: 1;
@@ -87,7 +87,6 @@ SOFTWARE. */
   order: 7;
 }
 
-
 #timeline {
   /* padding: 100px 0; */
 }
@@ -96,6 +95,7 @@ SOFTWARE. */
   position: relative;
   margin: auto;
 }
+
 @media (min-width: 1000px) {
   #timeline .demo-card-wrapper {
     display: flex;
@@ -105,6 +105,7 @@ SOFTWARE. */
     margin: auto;
   }
 }
+
 #timeline .demo-card-wrapper::after {
   z-index: 1;
   content: "";
@@ -115,7 +116,6 @@ SOFTWARE. */
   border-left: 4px solid black;
   border-radius: 7px;
 }
-
 
 #timeline .demo-card {
   position: relative;
@@ -131,11 +131,13 @@ SOFTWARE. */
     box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
   }
 }
+
 @media (min-width: 720px) {
   #timeline .demo-card {
     max-width: 40%;
   }
 }
+
 @media (min-width: 1000px) {
   #timeline .demo-card {
     max-width: 450px;
@@ -144,32 +146,40 @@ SOFTWARE. */
     margin-top: 45px;
     margin-bottom: 45px;
   }
+
   #timeline .demo-card:nth-child(odd) {
     margin-right: 45px;
   }
+
   #timeline .demo-card:nth-child(odd) .head::after {
     border-left-width: 15px;
     border-left-style: solid;
     left: 100%;
   }
+
   #timeline .demo-card:nth-child(odd) .head::before {
     left: 491.5px;
   }
+
   #timeline .demo-card:nth-child(even) {
     margin-left: 45px;
   }
+
   #timeline .demo-card:nth-child(even) .head::after {
     border-right-width: 15px;
     border-right-style: solid;
     right: 100%;
   }
+
   #timeline .demo-card:nth-child(even) .head::before {
     right: 489.5px;
   }
+
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
   }
 }
+
 #timeline .demo-card .head {
   position: relative;
   display: flex;
@@ -181,8 +191,8 @@ SOFTWARE. */
   border-style: dotted;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
-
 }
+
 #timeline .demo-card .head .number-box {
   display: inline;
   float: left;
@@ -192,8 +202,8 @@ SOFTWARE. */
   line-height: 35px;
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
-
 }
+
 #timeline .demo-card .head h2 {
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -203,22 +213,26 @@ SOFTWARE. */
   padding-bottom: 6px;
   line-height: 1rem;
 }
+
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 {
     font-size: 165%;
     line-height: 1.2rem;
   }
 }
+
 #timeline .demo-card .head h2 span {
   display: block;
   font-size: 0.6rem;
   margin: 0;
 }
+
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 span {
     font-size: 0.8rem;
   }
 }
+
 #timeline .demo-card .body {
   border: 2px solid black;
   border-style: dotted;
@@ -226,111 +240,109 @@ SOFTWARE. */
   padding: 15px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-
 }
+
 @media (min-width: 1000px) {
   #timeline .demo-card .body {
     height: 315px;
   }
 }
+
 #timeline .demo-card .body p {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 15px;
 }
+
 #timeline .demo-card .body img {
   display: block;
   width: 100%;
   padding: 2%;
 }
 
-
 #timeline .demo-card--step1, #timeline .demo-card--step2, #timeline .demo-card--step3, #timeline .demo-card--step4, #timeline .demo-card--step5,
 #timeline .demo-card--step6, #timeline .demo-card--step7, #timeline .demo-card--step8 {
   background-color: #EFEEE4;
 }
 
-
-
 #timeline .demo-card--step1:hover {
   background-color: #B3FF11;
   border-radius: 7px;
 }
+
 #timeline .demo-card--step1 .head::after {
   border-color: #46b8e9;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step2:hover {
   background-color: #00E0FF;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step2 .head::after {
   border-color: #3ee9d1;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step3:hover {
   background-color: #FA00FF;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step3 .head::after {
   border-color: #ce43eb;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step4:hover {
   background-color: #FFF500;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step4 .head::after {
   border-color: #4d92eb;
   border-radius: 7px;
-
 }
 
 #timeline .demo-card--step5:hover {
   background-color: #B3FF11;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step5 .head::after {
   border-color: #3ee9d1;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step6:hover {
   background-color: #00E0FF;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step6 .head::after {
   border-color: #46b8e9;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step7:hover {
   background-color: #FA00FF;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step7 .head::after {
   border-color: #46b8e9;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step8:hover {
   background-color: #FFF500;
   border-radius: 7px;
-
 }
+
 #timeline .demo-card--step8 .head::after {
   border-color: #46b8e9;
   border-radius: 7px;
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -341,7 +353,6 @@ SOFTWARE. */
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
   #aboutpage {
     border: 4px solid black;
     border-radius: 7px;
@@ -354,7 +365,6 @@ SOFTWARE. */
     text-align: left;
   }
 
-
   #aboutpage h1, #timeline h1 {
     margin: 20px;
   }
@@ -364,10 +374,11 @@ SOFTWARE. */
   }
 
   #timeline p {
-    text-align:left;
+    text-align: left;
   }
+
   #timeline h2 {
-    text-align:center;
+    text-align: center;
   }
 
   #timeline .demo-card-wrapper::after {
@@ -376,10 +387,10 @@ SOFTWARE. */
   }
 
   #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
-  position: absolute;
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent;
-}
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
