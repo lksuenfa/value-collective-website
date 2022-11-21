@@ -1,0 +1,8 @@
+.footerSub {
+    padding: 10% 0;
+}
+
+.bold {
+    font-family: var(--titleFont);
+    font-weight: bolder;
+}
