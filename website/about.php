@@ -28,11 +28,11 @@ The goal is to establish support structures for intrinsically-motivated people t
 				<div class="number-box">
 					<span>01</span>
 				</div>
-				<h2><span class="small">Subtitle</span> Technology</h2>
+				<h2><span class="small">janvier 2022</span> Technology</h2>
 			</div>
 			<div class="body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+        <img src="assets/images/residencies1.png" alt="Graphic"> </img>
 			</div>
 		</div>
 
@@ -41,11 +41,11 @@ The goal is to establish support structures for intrinsically-motivated people t
 				<div class="number-box">
 					<span>02</span>
 				</div>
-				<h2><span class="small">Subtitle</span> Confidence</h2>
+				<h2><span class="small">janvier 2022</span> Confidence</h2>
 			</div>
 			<div class="body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+        <img src="assets/images/residencies1.png" alt="Graphic"> </img>
 			</div>
 		</div>
 
@@ -54,11 +54,11 @@ The goal is to establish support structures for intrinsically-motivated people t
 				<div class="number-box">
 					<span>03</span>
 				</div>
-				<h2><span class="small">Subtitle</span> Adaptation</h2>
+				<h2><span class="small">janvier 2022</span> Adaptation</h2>
 			</div>
 			<div class="body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+				<img src="assets/images/residencies1.png" alt="Graphic"> </img>
 			</div>
 		</div>
 
@@ -67,11 +67,11 @@ The goal is to establish support structures for intrinsically-motivated people t
 				<div class="number-box">
 					<span>04</span>
 				</div>
-				<h2><span class="small">Subtitle</span> Consistency</h2>
+				<h2><span class="small">janvier 2022</span> Consistency</h2>
 			</div>
 			<div class="body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+        <img src="assets/images/residencies1.png" alt="Graphic"> </img>
 			</div>
 		</div>
 
@@ -80,13 +80,53 @@ The goal is to establish support structures for intrinsically-motivated people t
 				<div class="number-box">
 					<span>05</span>
 				</div>
-				<h2><span class="small">Subtitle</span> Conversion</h2>
+				<h2><span class="small">janvier 2022</span> Conversion</h2>
 			</div>
 			<div class="body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+        <img src="assets/images/residencies1.png" alt="Graphic"> </img>
 			</div>
 		</div>
+
+    <div class="demo-card demo-card--step6">
+			<div class="head">
+				<div class="number-box">
+					<span>05</span>
+				</div>
+				<h2><span class="small">janvier 2022</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="assets/images/residencies1.png" alt="Graphic"> </img>
+			</div>
+		</div>
+
+    <div class="demo-card demo-card--step7">
+			<div class="head">
+				<div class="number-box">
+					<span>05</span>
+				</div>
+				<h2><span class="small">janvier 2022</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="assets/images/residencies1.png" alt="Graphic"> </img>
+			</div>
+		</div>
+
+    <div class="demo-card demo-card--step8">
+			<div class="head">
+				<div class="number-box">
+					<span>05</span>
+				</div>
+				<h2><span class="small">janvier 2022</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="assets/images/residencies1.png" alt="Graphic"> </img>
+			</div>
+		</div>
+
 
 	</div>
 </section>
