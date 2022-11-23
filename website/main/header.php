@@ -16,10 +16,13 @@
 
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/front-page.css">
-    <link rel="stylesheet" href="css/residencies.css">
+
     <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/residencies.css">
+    <link rel="stylesheet" href="css/documents.css" />
+    <link rel="stylesheet" href="css/about.css" />
+
 </head>
 
 <body>
