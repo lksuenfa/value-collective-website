@@ -4,12 +4,16 @@
   margin: 6px auto;
   /*the auto for the left/right keeps the page centered*/
   padding: 10px;
-  min-height: 90vh;
+
   max-width: 38rem;
   min-width - 2(padding + border)
   justify-content: center;
   text-align: center;
   font-size: 84%;
+}
+
+.outer-box-frame.shapes {
+    min-height: 90vh;
 }
 
 h1 {
