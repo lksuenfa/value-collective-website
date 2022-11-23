@@ -39,8 +39,8 @@ a:visited {
     background-color: var(--accentColourBlue);
 }
 
-.btn-primary{
-  background-color: var(--accentColourGreen);
+.btn-primary {
+    background-color: var(--accentColourGreen);
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

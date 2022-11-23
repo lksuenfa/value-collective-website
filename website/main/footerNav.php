@@ -5,7 +5,7 @@
         <img src="assets/icons/newsletter.svg" alt="letter icon">
         <form action="">
             <input type="text">
-            <button type="submit" class="btn-primary">Sign up</button>
+            <button type="submit" class="hover green">Sign up</button>
         </form>
     </div>
 
