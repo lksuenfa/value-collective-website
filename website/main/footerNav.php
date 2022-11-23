@@ -34,7 +34,7 @@
                 Value Collective <br> <br>
 
                 251, ave des Pins Ouest <br>
-                Montréal, Quebec <br>
+                Montréal, Québec <br>
                 H2W 1R5
 
             </address>
