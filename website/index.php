@@ -14,6 +14,10 @@
       <?php require "main/scrollArrow.php" ?>
     <!-- </section class="shapes"> -->
 
+
+<div class="dropdown3">
+
+</div>
       <div class="dropdown" id="myBtn">
         <button class="dropbtn">
           residencies
@@ -41,7 +45,7 @@
 
         </div>
       </div>
-    </div>
+  </div class="dropdown3">
 
     <section class="footerNav">
       <?php require  "main/footerNav.php" ?>
