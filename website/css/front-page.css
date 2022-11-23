@@ -26,11 +26,13 @@ h1 {
 #frontpage p {
   font-size: 18px;
   font-family: var(--titleFont);
-  font-weight: lighter;
   font-style: normal;
+  text-align: left;
+  padding: 1%;
+
 }
 
-.dropdown2-content img {
+.dropdown2-content img, .dropdown-content img {
   padding: 4%;
 }
 
@@ -343,7 +345,7 @@ SOFTWARE.
 
 
   .outer-box-frame img {
-    width: 55%;
+    width: 45%;
     float: left;
   }
 
@@ -363,12 +365,18 @@ SOFTWARE.
     font-weight: bolder;
   }
 
+  .dropdown2-content img, .dropdown-content img {
+    padding: 4%;
+  }
+
+
+
   #frontpage p {
     font-size: 18px;
     font-family: var(--titleFont);
-    font-weight: lighter;
     font-style: normal;
     margin-top: 10%;
+  text-align: left;
   }
 
   .ico {
