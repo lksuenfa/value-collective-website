@@ -8,11 +8,14 @@
 :root {
     --bkgColour: #EFEEE4;
     --textDark: #343434;
-    --accentColourGreen: #C8FF00;
-    --accentColourYellow: #FFF500;
-    --accentColourPink: #FA00FF;
+    --accentColourGreen: #68B178;
+    --accentColourYellow: #EADA70;
+    --accentColourPink: #D6458C;
+    --accentColourSalmon: #d98283;
     --accentColourBlue: #0037FF;
+    --accentColourLightBlue: #30B2D0;
     --accentColourAqua: #00E0FF;
+    --accentColourPurple: #B197B3;
 
     /* fonts */
     --bodyFont: 'Public Sans', sans-serif;
