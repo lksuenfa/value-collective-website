@@ -13,7 +13,8 @@
 .outer-box-frame p {
   font-family: 'Poppins';
   font-size: 18px;
-  text-align: center;
+  padding: 0 2% 5% 2%;
+  text-align: left;
 }
 
 /* TIMELINE License
@@ -40,14 +41,17 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
 @media (min-width: 1000px) {
-  #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
+
+  #timeline .demo-card:nth-child(even) .head::after,
+  #timeline .demo-card:nth-child(odd) .head::after {
     position: absolute;
     content: "";
     width: 0;
     height: 0;
   }
 
-  #timeline .demo-card:nth-child(even) .head::before, #timeline .demo-card:nth-child(odd) .head::before {
+  #timeline .demo-card:nth-child(even) .head::before,
+  #timeline .demo-card:nth-child(odd) .head::before {
     position: absolute;
     content: "";
     width: 9px;
@@ -60,32 +64,34 @@ SOFTWARE. */
   order: 1;
 }
 
-.demo-card:nth-child(2) {
-  order: 4;
-}
 
 .demo-card:nth-child(3) {
   order: 2;
-}
-
-.demo-card:nth-child(4) {
-  order: 5;
 }
 
 .demo-card:nth-child(5) {
   order: 3;
 }
 
-.demo-card:nth-child(6) {
+.demo-card:nth-child(7) {
+  order: 4;
+}
+
+.demo-card:nth-child(2) {
+  order: 5;
+}
+
+
+.demo-card:nth-child(4) {
   order: 6;
 }
 
-.demo-card:nth-child(7) {
+.demo-card:nth-child(6) {
   order: 7;
 }
 
 .demo-card:nth-child(8) {
-  order: 7;
+  order: 8;
 }
 
 #timeline {
@@ -101,9 +107,9 @@ SOFTWARE. */
   #timeline .demo-card-wrapper {
     display: flex;
     flex-flow: column wrap;
-    width: 1170px;
-    height: 1650px;
+    height: 2100px;
     margin: auto;
+
   }
 }
 
@@ -113,7 +119,7 @@ SOFTWARE. */
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 47%;
+  left: 50%;
   border-left: 4px solid black;
   border-radius: 7px;
 }
@@ -122,7 +128,7 @@ SOFTWARE. */
   position: relative;
   display: block;
   margin: 10px auto 80px;
-  max-width: 94%;
+  max-width: 90%;
   z-index: 2;
 }
 
@@ -141,11 +147,13 @@ SOFTWARE. */
 
 @media (min-width: 1000px) {
   #timeline .demo-card {
-    max-width: 450px;
+    /* max-width: 400px; */
     height: 400px;
-    margin: 50px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    /* margin: 50px; */
+    /* margin-top: 45px;
+    margin-bottom: 45px; */
+
+    margin: 30px 50px;
   }
 
   #timeline .demo-card:nth-child(odd) {
@@ -235,7 +243,7 @@ SOFTWARE. */
   }
 }
 
-#timeline .demo-card .body {
+#timeline .demo-card .timelineBody {
   border: 2px solid black;
   border-style: dotted;
   border-top: 0;
@@ -245,25 +253,36 @@ SOFTWARE. */
 }
 
 @media (min-width: 1000px) {
-  #timeline .demo-card .body {
+  #timeline .demo-card .timelineBody {
     height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-#timeline .demo-card .body p {
+#timeline .demo-card .timelineBody p {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 15px;
 }
 
-#timeline .demo-card .body img {
-  display: block;
-  width: 100%;
-  padding: 2%;
+#timeline .demo-card .timelineBody img {
+
+  width: 300px;
+  height: 200px;
+
 }
 
-#timeline .demo-card--step1, #timeline .demo-card--step2, #timeline .demo-card--step3, #timeline .demo-card--step4, #timeline .demo-card--step5,
-#timeline .demo-card--step6, #timeline .demo-card--step7, #timeline .demo-card--step8 {
+#timeline .demo-card--step1,
+#timeline .demo-card--step2,
+#timeline .demo-card--step3,
+#timeline .demo-card--step4,
+#timeline .demo-card--step5,
+#timeline .demo-card--step6,
+#timeline .demo-card--step7,
+#timeline .demo-card--step8 {
   background-color: #EFEEE4;
 }
 
@@ -367,7 +386,8 @@ SOFTWARE. */
     text-align: left;
   }
 
-  #aboutpage h1, #timeline h1 {
+  #aboutpage h1,
+  #timeline h1 {
     margin: 20px;
   }
 
@@ -388,7 +408,8 @@ SOFTWARE. */
     border-radius: 7px;
   }
 
-  #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
+  #timeline .demo-card:nth-child(even) .head::after,
+  #timeline .demo-card:nth-child(odd) .head::after {
     position: absolute;
     content: "";
     width: 0;
