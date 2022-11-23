@@ -5,13 +5,14 @@
 
 
   <section>
-    <div id="frontpage" class="outer-box-frame">
 
+    <div id="frontpage" class="outer-box-frame shapes">
+      <!-- <section > -->
 
-      <img src="assets/images/vc1_front.png" width="100%" alt="" />
+      <!-- <img src="assets/images/vc1_front.png" width="100%" alt="" /> -->
       <h1>Value Collective is an initiative to support work that is valuable but not profitable.</h1>
-
       <?php require "main/scrollArrow.php" ?>
+    <!-- </section class="shapes"> -->
 
       <div class="dropdown" id="myBtn">
         <button class="dropbtn">
