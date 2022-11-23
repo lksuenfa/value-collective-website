@@ -229,6 +229,9 @@
         height: auto;
     }
 
+    .footerSide {
+        display: block;
+    }
 
 }
 
