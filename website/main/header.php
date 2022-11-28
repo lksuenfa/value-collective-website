@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/front-page.css">
 
+    <link rel="stylesheet" href="css/events.css">
     <link rel="stylesheet" href="css/project.css">
     <link rel="stylesheet" href="css/residencies.css">
     <link rel="stylesheet" href="css/documents.css" />

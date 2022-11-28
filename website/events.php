@@ -19,6 +19,8 @@
 
     <div id="documentpage" class="outer-box-frame">
       <img src="assets/icons/download.svg" alt="download icon">
+      <!-- 435x290px -->
+      <img src="assets/images/thumbnail.png">
 
       <h1>Utilizing our Online Resources</h1>
       <p>
