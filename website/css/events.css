@@ -1,27 +1,27 @@
-#documentpage2 {
+#eventpage2 {
   margin: 1%;
   text-align: left;
   border: 2px #D98283;
   border-style: dotted;
 }
 
-#documentpage2 p {
+#eventpage2 p {
   font-size: 16px;
   text-align: center;
 }
 
-#documentpage2 h1 {
+#eventpage2 h1 {
   margin: 0;
   text-align: center;
   font-size: 32px;
 }
 
-#documentpage img {
+#eventpage img {
   width: 10%;
   float: left;
 }
 
-#documentpage h1 {
+#eventpage h1 {
   margin-left: 70px;
   margin-top: 0;
   margin-bottom: 0;
@@ -29,7 +29,7 @@
   text-align: left;
 }
 
-#documentpage p {
+#eventpage p {
   border-top: 2px dotted black;
   margin-left: 70px;
   margin-top: 0;
@@ -52,26 +52,33 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  #documentpage img {
-    width: 5%;
+  #eventpage img {
+    width: 25%;
     float: left;
   }
 
-  #documentpage h1 {
-    margin-left: 70px;
+  #eventpage h1 {
+    margin-left: 300px;
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  #documentpage p {
-    border-top: 2px dotted black;
-    margin-left: 70px;
+  #eventpage h3 {
+    margin-left: 300px;
     margin-top: 0;
     margin-bottom: 0;
     text-align: left;
   }
 
-  #documentpage2 {
+  #eventpage p {
+    border-top: 2px dotted black;
+    margin-left: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  #eventpage2 {
     margin-left: 0;
     margin-right: 25px;
     padding: 2%;
@@ -80,11 +87,11 @@
     border-style: dotted;
   }
 
-  #documentpage2 h1 {
+  #eventpage2 h1 {
     margin: 0;
     text-align: left;
   }
 
-  #documentpage2 p {
+  #eventpage2 p {
     text-align: left;
   }
