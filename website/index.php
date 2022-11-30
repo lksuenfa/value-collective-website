@@ -11,10 +11,15 @@
 
       <!-- <img src="assets/images/vc1_front.png" width="100%" alt="" /> -->
       <h1>Value Collective is an initiative to support work that is valuable but not profitable.</h1>
-      <?php require "main/scrollArrow.php" ?>
+      <img class="front" src="assets/images/residencies1.png" alt="">
+
+    <a href="#s1">  <?php require "main/scrollArrow.php" ?> </a>
+
+    </div>
+
     <!-- </section class="shapes"> -->
 
-<div class="dropdown3">
+<!-- <div class="dropdown3">
 
 
       <div class="dropdown" id="myBtn">
@@ -44,9 +49,8 @@
 
         </div>
       </div>
-  </div>
+  </div> -->
 
-</div>
     <section class="footerNav">
       <?php require  "main/footerNav.php" ?>
     </section>
