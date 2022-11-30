@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Value Collective</title>
     <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/logo/VC_Favicon.svg">
 
+
+    <link rel="icon" type="image/x-icon" href="assets/logo/VC_Favicon.svg">
 
     <!-- css files -->
     <link rel="stylesheet" href="css/stylesheet.css">

@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .outer-box-frame.shapes {
@@ -34,22 +34,28 @@ h1 {
   font-size: 35px;
 }
 
-.dropbtn,
+.outer-box-frame img {
+  width: 100%;
+
+}
+
+
+/* .dropbtn,
 .dropbtn2 {
   font-size: 24px;
   font-weight: bolder;
   width: 80vw;
-}
+} */
 
-#frontpage p {
+/* #frontpage p {
   font-size: 18px;
   font-family: var(--titleFont);
   font-style: normal;
   text-align: left;
   padding: 1%;
-}
+} */
 
-.dropdown2-content img, .dropdown-content img {
+/* .dropdown2-content img, .dropdown-content img {
   padding: 4%;
 }
 
@@ -73,7 +79,6 @@ h1 {
   padding: 12px;
   position: relative;
 
-  /* display: inline-block; */
 }
 
 .dropdown-content,
@@ -85,7 +90,6 @@ h1 {
 .dropdown-content a,
 .dropdown2-content a {
   color: black;
-  /* text-decoration: none; */
   display: block;
 }
 
@@ -109,7 +113,7 @@ h1 {
 .dropdown2 {
   margin-bottom: 10px;
   margin-top: 10px;
-}
+} */
 
   /* display: inline-block; */
 /* ARROW BUTON */
@@ -131,7 +135,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 .ico {
-  /* margin-top: 15%; */
+  margin-top: 70%;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -148,7 +152,7 @@ SOFTWARE.
   border: 2px solid black;
   background: #30B2D0;
   border-radius: 50%;
-  display: inline-block;
+  /* display: inline-block; */
   height: 60px;
   width: 60px;
   position: absolute;
@@ -369,6 +373,7 @@ SOFTWARE.
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    min-height: 66%;
   }
 
   .outer-box-frame {
@@ -387,8 +392,7 @@ SOFTWARE.
   }
 
   .outer-box-frame img {
-    width: 35%;
-    float: left;
+    width: 50%;
   }
 
   h1 {
@@ -401,7 +405,7 @@ SOFTWARE.
     text-align: center;
   }
 
-  .dropbtn,
+  /* .dropbtn,
   .dropbtn2 {
     font-size: 32px;
     font-weight: bolder;
@@ -410,22 +414,21 @@ SOFTWARE.
   .dropdown2-content img, .dropdown-content img {
     padding: 4%;
     width: 40%;
-  }
+  } */
 
-  #frontpage p {
+  /* #frontpage p {
     font-size: 18px;
     font-family: var(--titleFont);
     font-style: normal;
-    margin-top: 10%;
     text-align: left;
-  }
+  } */
 
-  .dropdown,
+
+  /* .dropdown,
   .dropdown2 {
     margin-bottom: 15px;
     margin-top: 15px;
 
-    /* display: inline-block; */
   }
 
   .dropdown, .dropdown2 {
@@ -436,4 +439,4 @@ SOFTWARE.
   .dropbtn,
   .dropbtn2 {
 text-align: left;
- }
+ } */
