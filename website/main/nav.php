@@ -32,7 +32,7 @@
             <a class="lined hover green" href="about.php">About</a>
             <a class="lined hover pink" href="residencies.php">Residencies</a>
             <a class="lined hover yellow" href="projects.php">Projects</a>
-            <a class="lined hover aqua" href="events.php">Events</a>
+            <a class="lined hover salmon" href="events.php">Events</a>
             <a class="lined last hover aqua" href="document.php">Document</a>
         </div>
 
