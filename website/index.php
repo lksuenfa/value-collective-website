@@ -4,8 +4,7 @@
   <?php require "main/nav.php" ?>
 
 
-  <section>
-
+<section>
     <div id="frontpage" class="outer-box-frame shapes">
       <!-- <section > -->
 
@@ -15,11 +14,14 @@
 
     <a href="#s1">  <?php require "main/scrollArrow.php" ?> </a>
 
-    </div>
+</div>
 
-    <!-- </section class="shapes"> -->
+<section id="s1"
 
-<!-- <div class="dropdown3">
+
+
+
+ <!-- <div class="dropdown3">
 
 
       <div class="dropdown" id="myBtn">
@@ -49,7 +51,7 @@
 
         </div>
       </div>
-  </div> -->
+  </div>  -->
 
     <section class="footerNav">
       <?php require  "main/footerNav.php" ?>
