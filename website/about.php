@@ -15,8 +15,6 @@
 			<p>
 				Value Collective (VC) is an initiative to support work that is valuable, but not profitable, using alter-economic thinking and practice.
 				The goal is to establish support structures for intrinsically-motivated people to develop their projects and ideas away from financial pressures. In the long-term, we envision providing rent-free living arrangements to a rotating cohort of self-organized residents, alongside other forms of support.
-
-
 			</p>
 
 		</div>

@@ -1,4 +1,4 @@
-let colours = ["Green", "Yellow", "Pink", "Blue", "Aqua"];
+let colours = ["Green", "Yellow", "Pink", "Blue", "Aqua", "Salmon"];
 let product = document.querySelectorAll(".product");
 
 // change background colour to random when hovering
