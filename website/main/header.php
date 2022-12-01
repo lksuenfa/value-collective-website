@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/residencies.css">
     <link rel="stylesheet" href="css/documents.css" />
     <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/animate.css" />
 
 </head>
 
