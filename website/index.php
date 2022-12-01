@@ -42,7 +42,7 @@
     <img src="assets/images/residencies1.png">
     <div class="text">Learn how to create a responsive slideshow with CSS and JavaScript.</div>
   </div>
-  
+
   <div class="mySlides fade">
     <img src="assets/images/residencies1.png">
     <div class="text">Learn how to create a responsive slideshow with CSS and JavaScript.</div>
@@ -65,8 +65,8 @@
   <span class="dot" onclick="currentSlide(5)"></span>
 
 </div>
-
 </section id="s1">
+
 
 
 <?php require  "main/footer.php" ?>
