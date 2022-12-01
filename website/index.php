@@ -16,7 +16,7 @@
 
 </div>
 
-<section id="s1" class="outer-box-frame">
+<section id="s1">
 
 <!-- Full-width images with number and caption text -->
 
@@ -24,22 +24,31 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="assets/images/residencies1.png" style="width:100%">
-    <div class="text">Caption Text</div>
+    <img src="assets/images/projects1.png">
+    <div class="text">Learn how to create a responsive slideshow with CSS and JavaScript. Learn how to create a responsive slideshow with CSS and JavaScript.</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="assets/images/projects1.png" style="width:100%">
-    <div class="text">Caption Two</div>
+    <img src="assets/images/projects1.png">
+    <div class="text">Learn how to create a responsive slideshow with CSS and JavaScript.</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="assets/images/residencies1.png" style="width:100%">
-    <div class="text">Caption Three</div>
+    <img src="assets/images/residencies1.png">
+    <div class="text">Learn how to create a responsive slideshow with CSS and JavaScript.</div>
   </div>
+
+  <div class="mySlides fade">
+    <img src="assets/images/residencies1.png">
+    <div class="text">Learn how to create a responsive slideshow with CSS and JavaScript.</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="assets/images/residencies1.png">
+    <div class="text">Learn how to create a responsive slideshow with CSS and JavaScript.</div>
+  </div>
+
+
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -52,9 +61,12 @@
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+
 </div>
 
-</section>
+</section id="s1">
 
 
 <?php require  "main/footer.php" ?>
