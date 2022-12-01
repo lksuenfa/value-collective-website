@@ -528,6 +528,7 @@ min-height: 91vh;
     border-radius: 7px;
     margin: auto;
     align-items: center;
+    min-height: 100vh;
 
   }
 
