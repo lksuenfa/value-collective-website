@@ -287,82 +287,82 @@ SOFTWARE. */
 }
 
 #timeline .demo-card--step1:hover {
-  background-color: #B3FF11;
+  background-color: var(--accentColourGreen);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step1 .head::after {
-  border-color: #46b8e9;
+  border-color: var(--accentColourGreen);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step2:hover {
-  background-color: #00E0FF;
+  background-color: var(--accentColourYellow);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step2 .head::after {
-  border-color: #3ee9d1;
+  border-color: var(--accentColourYellow);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step3:hover {
-  background-color: #FA00FF;
+  background-color: var(--accentColourPink);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step3 .head::after {
-  border-color: #ce43eb;
+  border-color: var(--accentColourPink);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step4:hover {
-  background-color: #FFF500;
+  background-color: var(--accentColourSalmon);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step4 .head::after {
-  border-color: #4d92eb;
+  border-color: var(--accentColourSalmon);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step5:hover {
-  background-color: #B3FF11;
+  background-color: var(--accentColourAqua);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step5 .head::after {
-  border-color: #3ee9d1;
+  border-color: var(--accentColourAqua);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step6:hover {
-  background-color: #00E0FF;
+  background-color: var(--accentColourBlue);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step6 .head::after {
-  border-color: #46b8e9;
+  border-color: var(--accentColourBlue);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step7:hover {
-  background-color: #FA00FF;
+  background-color: var(--accentColourGreen);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step7 .head::after {
-  border-color: #46b8e9;
+  border-color: var(--accentColourGreen);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step8:hover {
-  background-color: #FFF500;
+  background-color: var(--accentColourYellow);
   border-radius: 7px;
 }
 
 #timeline .demo-card--step8 .head::after {
-  border-color: #46b8e9;
+  border-color: var(--accentColourYellow);
   border-radius: 7px;
 }
 
