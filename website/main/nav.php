@@ -33,8 +33,13 @@
             <a class="lined hover green" href="about.php">About</a>
             <a class="lined hover pink" href="residencies.php">Residencies</a>
             <a class="lined hover yellow" href="projects.php">Projects</a>
-            <a class="lined hover salmon" href="events.php">Events</a>
-            <a class="lined last hover aqua" href="document.php">Document</a>
+            <a class="lined last hover aqua" href="events.php">last link or it fucks shit up</a>
+        </div>
+
+        <div id="eventMenu">
+            <a class="lined hover green" href="events.php">event one</a>
+            <a class="lined hover pink" href="events.php">event two</a>
+            <a class="lined last hover aqua" href="events.php">event three</a>
         </div>
 
         <div id="overlayFooter">

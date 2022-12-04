@@ -35,6 +35,14 @@
             </address>
         </div>
 
+        <a href="document.php">
+          <div id="documents">
+              <div class="documentsTitle">
+                  <img src="assets/icons/documents.svg" alt="document icon">
+                  <h3 class="bold">Documents</h3>
+              </div>
+        </a>
+
     </div>
 
 </section>

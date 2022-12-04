@@ -68,6 +68,12 @@
     text-align: center;
 }
 
+#eventMenu {
+    margin: 0 10%;
+    border: var(--thickline);
+    border-radius: var(--roundedEdges);
+    text-align: center;
+}
 
 .lined {
     padding: 1rem;
@@ -216,6 +222,8 @@
         justify-content: flex-start;
 
     }
+
+
 
     .search-container input {
         width: 8vw;
