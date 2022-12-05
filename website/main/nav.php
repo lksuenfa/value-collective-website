@@ -36,11 +36,45 @@
             <a class="lined last hover aqua" href="events.php">last link or it fucks shit up</a>
         </div>
 
+
+
         <div id="eventMenu">
-            <a class="lined hover green" href="events.php">event one</a>
-            <a class="lined hover pink" href="events.php">event two</a>
-            <a class="lined last hover aqua" href="events.php">event three</a>
+          <div class="eventTitle">
+            <h3>Upcoming Events</h3>
+          </div>
+          <div class="eventrow">
+            <div class="date">
+    03.JAN
+            </div>
+            <div class="eventname">
+    Event Name Here
+            </div>
+          </div>
+          <div class="eventrow">
+            <div class="date">
+    21FEB
+            </div>
+            <div class="eventname">
+    Event Name Here
+            </div>
+          </div>
+        <div class="eventrow">
+          <div class="date">
+    25MAR
+            </div>
+            <div class="eventname">
+    Event Name Here
+            </div>
+          </div>
         </div>
+
+
+      <a href="events.php">
+
+
+
+
+
 
         <div id="overlayFooter">
             <a href=""><img src="assets/icons/fb.svg" alt="facebook logo"></a>

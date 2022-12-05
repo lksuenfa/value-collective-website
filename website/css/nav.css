@@ -75,6 +75,34 @@
     text-align: center;
 }
 
+.eventTitle {
+  padding-bottom: 3%;
+  padding-top: 3%;
+  border-bottom: var(--thickline);
+
+}
+
+
+.date {
+    width: 33%;
+    padding: 0 5px 0 0;
+    float: left;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.eventname {
+    width: 66%;
+    padding: 0 5px 0 0;
+    float: right;
+    padding-bottom: 3%;
+    padding-top: 2%;
+
+
+}
+
+
 .lined {
     padding: 1rem;
     border-bottom: var(--thickline);
