@@ -80,8 +80,12 @@
   padding-top: 3%;
   border-bottom: var(--thickline);
 
+
 }
 
+.eventTitle:hover  {
+  background-color: var(--accentColourBlue);
+}
 
 .date {
     width: 33%;

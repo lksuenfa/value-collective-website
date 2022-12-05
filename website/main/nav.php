@@ -32,8 +32,7 @@
         <div id="mainMenu">
             <a class="lined hover green" href="about.php">About</a>
             <a class="lined hover pink" href="residencies.php">Residencies</a>
-            <a class="lined hover yellow" href="projects.php">Projects</a>
-            <a class="lined last hover aqua" href="events.php">last link or it fucks shit up</a>
+            <a class="lined last hover yellow" href="projects.php">Projects</a>
         </div>
 
         <div id="eventMenu">
