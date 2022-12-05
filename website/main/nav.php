@@ -36,9 +36,8 @@
             <a class="lined last hover aqua" href="events.php">last link or it fucks shit up</a>
         </div>
 
-
-
         <div id="eventMenu">
+          <a href="events.php">
           <div class="eventTitle">
             <h3>Upcoming Events</h3>
           </div>
@@ -66,14 +65,8 @@
     Event Name Here
             </div>
           </div>
+          </a>
         </div>
-
-
-      <a href="events.php">
-
-
-
-
 
 
         <div id="overlayFooter">
