@@ -44,7 +44,23 @@
 						<h2><span class="small">JAN - APR 2020 </span> Excess and the City </h2>
 					</div>
 					<div class="timelineBody">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing
+							orem ipsum dolor sit amet, consectetur adipisicing orem ipsum dolor sit amet, consectetur adipisicing
+							orem ipsuipsumipsumipsumipsum
+							ipsumipsumm dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam
+							ipsumipsum
+							ipsum
+							orem ipsum dolor sit amet, consectetur adipisicing orem ipsum dolor sit amet, consectetur adipisicing
+							orem ipsuipsumipsumipsumipsum
+							ipsumipsumm dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam
+							ipsumipsum
+							ipsum
+							orem ipsum dolor sit amet, consectetur adipisicing orem ipsum dolor sit amet, consectetur adipisicing
+							orem ipsuipsumipsumipsumipsum
+							ipsumipsumm dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam
+							ipsumipsum
+							ipsum
+							.</p>
 						<img src="assets/images/residencies1.png" alt="Graphic"> </img>
 					</div>
 				</div>
