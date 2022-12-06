@@ -9,7 +9,7 @@
       <!-- <section > -->
 
       <!-- <img src="assets/images/vc1_front.png" width="100%" alt="" /> -->
-      <h1>Value Collective is an initiative to support work that is valuable but not profitable.</h1>
+      <h1>Value Collective is an initiative to support work that is valuable, but not profitable, using alter-economic thinking and practice.</h1>
       <img class="front" src="assets/images/residencies1.png" alt="">
 
     <a href="#s1">  <?php require "main/scrollArrow.php" ?> </a>

@@ -432,4 +432,13 @@ SOFTWARE. */
       font-size: 205%;
       line-height: 2rem;
     }
+
+    .outer-box-frame p {
+      column-count: 2;
+      font-family: 'Poppins';
+      font-size: 18px;
+      padding: 0 2% 5% 2%;
+      text-align: left;
+    }
+
   }
