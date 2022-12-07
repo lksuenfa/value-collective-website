@@ -1,6 +1,7 @@
 <?php require "main/header.php" ?>
 
 <section class="body">
+	
 	<?php require "main/nav.php" ?>
 
 

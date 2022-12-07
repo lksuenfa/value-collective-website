@@ -1,3 +1,7 @@
+div.sticky{
+  position: sticky;
+}
+
 .outer-box-frame {
   border: 4px solid black;
   border-radius: 7px;

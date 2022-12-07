@@ -1,11 +1,18 @@
 <section id="footer" class="frame">
 
     <div id="contact" class="footerSub">
+
+      <div id="getInTouch">
+        <div class="locationTitle">
+        <img src="assets/icons/location.svg" alt="location icon">
         <h3 class="bold">Get in Touch</h3>
-        <div class="contactMethod">
+        </div>
+      </div>
+      <div class="contactMethod">
             <img src="assets/icons/email.png" alt="email icon">
             <a href="mailto: abc@example.com">contact[at]valuecollective.org</a>
-        </div>
+      </div>
+
 
         <div class="contactMethod">
             <img src="assets/icons/fb.svg" alt="facebook icon">
